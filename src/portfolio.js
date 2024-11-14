@@ -19,7 +19,7 @@ const greeting = {
   username: "Eric Allen",
   title: "Hi all, I'm Eric",
   subTitle: emoji(
-    "A results-driven Senior Software Engineer with extensive experience in delivering scalable, high-performance web applications. Skilled in Ruby, JavaScript, PHP, and Python, with expertise in agile development, collaborative problem-solving, and a strong focus on industry best practices."
+    "A Senior Software Engineer with proven expertise in building scalable, high-performance web applications. Proficient in Ruby, JavaScript, PHP, and Python, I bring strong problem-solving skills, a commitment to agile development, and a deep focus on industry best practices to deliver reliable, user-centric solutions."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1pjKOUcdDYAZRKmwuj0tKIqe3Hpkv1Btw/view?usp=sharing", // Your actual resume link
@@ -38,11 +38,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "FULL STACK DEVELOPER WITH A PASSION FOR BUILDING HIGH-QUALITY APPLICATIONS",
+    "Full-Stack Developer Specializing in Robust and Scalable Solutions",
   skills: [
     emoji("⚡ Develop and maintain robust backend and frontend applications"),
     emoji("⚡ Build scalable microservices and web applications"),
-    emoji("⚡ Integration of third-party services and APIs")
+    emoji("⚡ Seamlessly integrate third-party services and APIs to enhance functionality and user experience")
   ],
   softwareSkills: [
     {skillName: "Ruby", fontAwesomeClassname: "fas fa-gem"},
@@ -65,7 +65,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Carleton University",
-      logo: require("./assets/images/carletonLogo.png"),
+      // logo: require("./assets/images/carletonLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "",
       desc: "Focused on software engineering principles, algorithms, and data structures.",
@@ -96,19 +96,19 @@ const workExperiences = {
       role: "Freelance Software Engineer",
       company: "Self-employed",
       date: "Aug 2022 - Present",
-      desc: "Managed web development projects and delivered high-quality, client-focused solutions."
+      desc: "Delivered customized, high-quality web applications for multiple clients, prioritizing client satisfaction and robust design."
     },
     {
       role: "Application Support Engineer (Contract)",
       company: "Text Groove",
       date: "Dec 2023 - Apr 2024",
-      desc: "Enhanced platform functionality and addressed technical issues for improved user experience."
+      desc: "Enhanced functionality of the platform by resolving technical issues and optimizing performance, leading to improved user experience and greater platform stability."
     },
     {
       role: "Brewing Engineer",
       company: "Molson Coors Beverage Company",
       date: "Dec 2022 - Dec 2023",
-      desc: "Developed web applications for brewery management and integrated IoT systems."
+      desc: "Developed brewery management applications with integrated IoT systems, streamlining operations and enabling real-time data tracking for improved decision-making."
     },
     {
       role: "Senior Software Engineer",
@@ -133,7 +133,7 @@ const achievementSection = {
     {
       title: "Certified Ruby Developer",
       subtitle:
-        "Completed a comprehensive certification program for Ruby programming, mastering advanced techniques and best practices.",
+        "Completed advanced certification in Ruby, mastering complex programming concepts and best practices to build reliable, high-performance applications.",
       image: "/rubyCertification.svg", // Updated path after moving to public
       imageAlt: "Ruby Certification",
       footerLink: [
@@ -146,7 +146,7 @@ const achievementSection = {
     {
       title: "JavaScript Algorithms and Data Structures Certification",
       subtitle:
-        "Awarded by freeCodeCamp for demonstrating proficiency in JavaScript and problem-solving using data structures and algorithms.",
+        "Achieved by demonstrating proficiency in JavaScript and solving complex problems using algorithms and data structures on freeCodeCamp.",
       image: require("./assets/images/javascriptCertification.png"),
       imageAlt: "JavaScript Certification",
       footerLink: [
@@ -159,7 +159,7 @@ const achievementSection = {
     {
       title: "AWS Certified Developer – Associate",
       subtitle:
-        "Recognized for proficiency in deploying and managing applications on the AWS platform.",
+        "Demonstrated expertise in deploying, managing, and troubleshooting applications on the AWS platform.",
       image: "/awsCertification.svg",
       imageAlt: "AWS Certification",
       footerLink: [
@@ -181,13 +181,13 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Text Groove",
-      projectDesc: "Platform enhancements and performance improvements.",
+      projectDesc: "Led enhancements and performance optimizations, resulting in improved user engagement and faster load times.",
       footerLink: [{name: "Visit Website", url: "https://www.textgroove.com/"}]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Wallrus Creative Technologies",
-      projectDesc: "Developed features to improve SEO and increase traffic.",
+      projectDesc: "Developed SEO-optimized features that increased organic traffic and contributed to customer acquisition.",
       footerLink: [{name: "Visit Website", url: "http://wallrus.tech/"}]
     }
   ],
@@ -251,7 +251,7 @@ const podcastSection = {
 // Contact Information
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Feel free to reach out for collaborations or just a chat!",
+  subtitle: "Let's connect! Open to collaboration, new opportunities, or discussing innovative tech solutions.",
   number: "",
   email_address: "esquithallen@gmail.com"
 };
