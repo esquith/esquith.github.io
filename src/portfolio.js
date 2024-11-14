@@ -21,7 +21,8 @@ const greeting = {
   subTitle: emoji(
     "A results-driven Senior Software Engineer with extensive experience in delivering scalable, high-performance web applications. Skilled in Ruby, JavaScript, PHP, and Python, with expertise in agile development, collaborative problem-solving, and a strong focus on industry best practices."
   ),
-  resumeLink: "https://drive.google.com/file/d/1pjKOUcdDYAZRKmwuj0tKIqe3Hpkv1Btw/view?usp=sharing", // Your actual resume link
+  resumeLink:
+    "https://drive.google.com/file/d/1pjKOUcdDYAZRKmwuj0tKIqe3Hpkv1Btw/view?usp=sharing", // Your actual resume link
   displayGreeting: true
 };
 
@@ -36,23 +37,24 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WITH A PASSION FOR BUILDING HIGH-QUALITY APPLICATIONS",
+  subTitle:
+    "FULL STACK DEVELOPER WITH A PASSION FOR BUILDING HIGH-QUALITY APPLICATIONS",
   skills: [
     emoji("⚡ Develop and maintain robust backend and frontend applications"),
     emoji("⚡ Build scalable microservices and web applications"),
     emoji("⚡ Integration of third-party services and APIs")
   ],
   softwareSkills: [
-    { skillName: "Ruby", fontAwesomeClassname: "fas fa-gem" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs" },
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git" }
+    {skillName: "Ruby", fontAwesomeClassname: "fas fa-gem"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "MySQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git"}
   ],
   display: true
 };
@@ -79,9 +81,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Fullstack Development", progressPercentage: "95%" },
-    { Stack: "Project Management", progressPercentage: "85%" },
-    { Stack: "Frontend Development", progressPercentage: "70%" }
+    {Stack: "Fullstack Development", progressPercentage: "95%"},
+    {Stack: "Project Management", progressPercentage: "85%"},
+    {Stack: "Frontend Development", progressPercentage: "70%"}
   ],
   displayCodersrank: false
 };
@@ -130,29 +132,41 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Certified Ruby Developer",
-      subtitle: "Completed a comprehensive certification program for Ruby programming, mastering advanced techniques and best practices.",
+      subtitle:
+        "Completed a comprehensive certification program for Ruby programming, mastering advanced techniques and best practices.",
       image: "/rubyCertification.svg", // Updated path after moving to public
       imageAlt: "Ruby Certification",
       footerLink: [
-        { name: "Certification Link", url: "https://example.com/ruby-certification" }
+        {
+          name: "Certification Link",
+          url: "https://example.com/ruby-certification"
+        }
       ]
     },
     {
       title: "JavaScript Algorithms and Data Structures Certification",
-      subtitle: "Awarded by freeCodeCamp for demonstrating proficiency in JavaScript and problem-solving using data structures and algorithms.",
+      subtitle:
+        "Awarded by freeCodeCamp for demonstrating proficiency in JavaScript and problem-solving using data structures and algorithms.",
       image: require("./assets/images/javascriptCertification.png"),
       imageAlt: "JavaScript Certification",
       footerLink: [
-        { name: "Certification Link", url: "https://www.freecodecamp.org/certification" }
+        {
+          name: "Certification Link",
+          url: "https://www.freecodecamp.org/certification"
+        }
       ]
     },
     {
       title: "AWS Certified Developer – Associate",
-      subtitle: "Recognized for proficiency in deploying and managing applications on the AWS platform.",
+      subtitle:
+        "Recognized for proficiency in deploying and managing applications on the AWS platform.",
       image: "/awsCertification.svg",
       imageAlt: "AWS Certification",
       footerLink: [
-        { name: "Certification Link", url: "https://aws.amazon.com/certification" }
+        {
+          name: "Certification Link",
+          url: "https://aws.amazon.com/certification"
+        }
       ]
     }
   ],
@@ -168,13 +182,13 @@ const bigProjects = {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Text Groove",
       projectDesc: "Platform enhancements and performance improvements.",
-      footerLink: [{ name: "Visit Website", url: "https://www.textgroove.com/" }]
+      footerLink: [{name: "Visit Website", url: "https://www.textgroove.com/"}]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Wallrus Creative Technologies",
       projectDesc: "Developed features to improve SEO and increase traffic.",
-      footerLink: [{ name: "Visit Website", url: "http://wallrus.tech/" }]
+      footerLink: [{name: "Visit Website", url: "http://wallrus.tech/"}]
     }
   ],
   display: true
@@ -189,7 +203,8 @@ const blogSection = {
     {
       url: "https://medium.com/@esquith",
       title: "Why React is the Best",
-      description: "A discussion on why React is a powerful framework for frontend development."
+      description:
+        "A discussion on why React is a powerful framework for frontend development."
     }
   ],
   display: false
