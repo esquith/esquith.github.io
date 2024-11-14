@@ -42,7 +42,9 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop and maintain robust backend and frontend applications"),
     emoji("⚡ Build scalable microservices and web applications"),
-    emoji("⚡ Seamlessly integrate third-party services and APIs to enhance functionality and user experience")
+    emoji(
+      "⚡ Seamlessly integrate third-party services and APIs to enhance functionality and user experience"
+    )
   ],
   softwareSkills: [
     {skillName: "Ruby", fontAwesomeClassname: "fas fa-gem"},
@@ -181,13 +183,15 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Text Groove",
-      projectDesc: "Led enhancements and performance optimizations, resulting in improved user engagement and faster load times.",
+      projectDesc:
+        "Led enhancements and performance optimizations, resulting in improved user engagement and faster load times.",
       footerLink: [{name: "Visit Website", url: "https://www.textgroove.com/"}]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Wallrus Creative Technologies",
-      projectDesc: "Developed SEO-optimized features that increased organic traffic and contributed to customer acquisition.",
+      projectDesc:
+        "Developed SEO-optimized features that increased organic traffic and contributed to customer acquisition.",
       footerLink: [{name: "Visit Website", url: "http://wallrus.tech/"}]
     }
   ],
@@ -251,7 +255,8 @@ const podcastSection = {
 // Contact Information
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Let's connect! Open to collaboration, new opportunities, or discussing innovative tech solutions.",
+  subtitle:
+    "Let's connect! Open to collaboration, new opportunities, or discussing innovative tech solutions.",
   number: "",
   email_address: "esquithallen@gmail.com"
 };
