@@ -112,7 +112,7 @@ const workExperiences = {
     },
     {
       role: "Senior Software Engineer",
-      company: "Wallrus Creative Technologies",
+      company: "Wallrus Creative",
       date: "Oct 2022 - Dec 2022",
       desc: "Increased organic traffic by 50% and contributed to customer acquisition through feature development."
     },
