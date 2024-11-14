@@ -47,16 +47,16 @@ const skillsSection = {
     )
   ],
   softwareSkills: [
-    {skillName: "Ruby", fontAwesomeClassname: "fas fa-gem"},
-    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
-    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
-    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
-    {skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs"},
-    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
-    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
-    {skillName: "MySQL", fontAwesomeClassname: "fas fa-database"},
-    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
-    {skillName: "Git", fontAwesomeClassname: "fab fa-git"}
+    { skillName: "Ruby", fontAwesomeClassname: "fas fa-gem" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git" }
   ],
   display: true
 };
@@ -67,7 +67,6 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Carleton University",
-      // logo: require("./assets/images/carletonLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "",
       desc: "Focused on software engineering principles, algorithms, and data structures.",
@@ -83,9 +82,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    {Stack: "Fullstack Development", progressPercentage: "95%"},
-    {Stack: "Project Management", progressPercentage: "85%"},
-    {Stack: "Frontend Development", progressPercentage: "70%"}
+    { Stack: "Fullstack Development", progressPercentage: "95%" },
+    { Stack: "Project Management", progressPercentage: "85%" },
+    { Stack: "Frontend Development", progressPercentage: "70%" }
   ],
   displayCodersrank: false
 };
@@ -175,24 +174,24 @@ const achievementSection = {
   display: true
 };
 
-// Big Projects Section
+// Big Projects Section with Placeholder Images
 const bigProjects = {
   title: "Big Projects",
   subtitle: "A few of the major projects I've contributed to",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/textGroovePlaceholder.jpg"), // Placeholder image for Text Groove
       projectName: "Text Groove",
       projectDesc:
         "Led enhancements and performance optimizations, resulting in improved user engagement and faster load times.",
-      footerLink: [{name: "Visit Website", url: "https://www.textgroove.com/"}]
+      footerLink: [{ name: "Visit Website", url: "https://www.textgroove.com/" }]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/wallrusPlaceholder.jpg"), // Placeholder image for Wallrus Creative
       projectName: "Wallrus Creative Technologies",
       projectDesc:
         "Developed SEO-optimized features that increased organic traffic and contributed to customer acquisition.",
-      footerLink: [{name: "Visit Website", url: "http://wallrus.tech/"}]
+      footerLink: [{ name: "Visit Website", url: "http://wallrus.tech/" }]
     }
   ],
   display: true
