@@ -128,7 +128,7 @@ const workExperiences = {
 // Achievements and Certifications Section
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Recognitions, Certifications, and Awards that enhance my profile",
+  subtitle: "",
   achievementsCards: [
     {
       title: "Certified Ruby Developer",
